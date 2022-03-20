@@ -1,0 +1,19 @@
+{
+  "name": "v2board-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-hints": "^1.0.2",
+    "gitbook-plugin-mermaid-gb3": "^2.1.0",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-prism-themes": "0.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
