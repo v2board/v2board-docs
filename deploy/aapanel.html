@@ -1,0 +1,620 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>使用aaPanel手动部署 · V2Board 使用手册</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-atom-dark.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    V2Board
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../CHANGELOG.html">
+            
+                <a href="../CHANGELOG.html">
+            
+                    
+                    更新日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../TERM.html">
+            
+                <a href="../TERM.html">
+            
+                    
+                    术语
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ENV.html">
+            
+                <a href="../ENV.html">
+            
+                    
+                    环境要求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    部署
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="aapanel.html">
+            
+                <a href="aapanel.html">
+            
+                    
+                    使用aaPanel手动部署
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    使用
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../use/user.html">
+            
+                <a href="../use/user.html">
+            
+                    
+                    用户
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../use/subscribe.html">
+            
+                <a href="../use/subscribe.html">
+            
+                    
+                    订阅
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../use/node.html">
+            
+                <a href="../use/node.html">
+            
+                    
+                    节点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../use/payment.html">
+            
+                <a href="../use/payment.html">
+            
+                    
+                    支付
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../use/email.html">
+            
+                <a href="../use/email.html">
+            
+                    
+                    邮件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../use/commission.html">
+            
+                <a href="../use/commission.html">
+            
+                    
+                    邀请返佣
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../use/knowledge.html">
+            
+                <a href="../use/knowledge.html">
+            
+                    
+                    知识库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../use/telegram.html">
+            
+                <a href="../use/telegram.html">
+            
+                    
+                    Telegram
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../use/advanced.html">
+            
+                <a href="../use/advanced.html">
+            
+                    
+                    进阶
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="../use/server.html">
+            
+                <a href="../use/server.html">
+            
+                    
+                    服务端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.11" data-path="../use/theme.html">
+            
+                <a href="../use/theme.html">
+            
+                    
+                    主题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.12" data-path="../use/update.html">
+            
+                <a href="../use/update.html">
+            
+                    
+                    更新
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    支持我们
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../donate/btc.html">
+            
+                <a href="../donate/btc.html">
+            
+                    
+                    虚拟货币
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../donate/service.html">
+            
+                <a href="../donate/service.html">
+            
+                    
+                    增值服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../donate/client.html">
+            
+                <a href="../donate/client.html">
+            
+                    
+                    客户端
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../donate/aff.html">
+            
+                <a href="../donate/aff.html">
+            
+                    
+                    AFF
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >使用aaPanel手动部署</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x4F7F;&#x7528;aapanel&#x624B;&#x52A8;&#x90E8;&#x7F72;"><b></b>&#x4F7F;&#x7528;aaPanel&#x624B;&#x52A8;&#x90E8;&#x7F72;</a></li><ul><li><span class="title-icon "></span><a href="#1&#x914D;&#x7F6E;aapanel"><b></b>1.&#x914D;&#x7F6E;aaPanel</a></li><li><span class="title-icon "></span><a href="#2&#x5B89;&#x88C5;redis&#x3001;fileinfo"><b></b>2.&#x5B89;&#x88C5;Redis&#x3001;fileinfo</a></li><li><span class="title-icon "></span><a href="#3&#x89E3;&#x9664;&#x88AB;&#x7981;&#x6B62;&#x7684;&#x51FD;&#x6570;"><b></b>3.&#x89E3;&#x9664;&#x88AB;&#x7981;&#x6B62;&#x7684;&#x51FD;&#x6570;</a></li><li><span class="title-icon "></span><a href="#4&#x6DFB;&#x52A0;&#x7AD9;&#x70B9;"><b></b>4.&#x6DFB;&#x52A0;&#x7AD9;&#x70B9;</a></li><li><span class="title-icon "></span><a href="#5&#x5B89;&#x88C5;v2board"><b></b>5.&#x5B89;&#x88C5;V2Board</a></li><li><span class="title-icon "></span><a href="#6&#x914D;&#x7F6E;&#x7AD9;&#x70B9;&#x76EE;&#x5F55;&#x53CA;&#x4F2A;&#x9759;&#x6001;"><b></b>6.&#x914D;&#x7F6E;&#x7AD9;&#x70B9;&#x76EE;&#x5F55;&#x53CA;&#x4F2A;&#x9759;&#x6001;</a></li><li><span class="title-icon "></span><a href="#7&#x914D;&#x7F6E;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;"><b></b>7.&#x914D;&#x7F6E;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;</a></li><li><span class="title-icon "></span><a href="#8&#x542F;&#x52A8;&#x961F;&#x5217;&#x670D;&#x52A1;"><b></b>8.&#x542F;&#x52A8;&#x961F;&#x5217;&#x670D;&#x52A1;</a></li><ul><li><span class="title-icon "></span><a href="#&#x5E38;&#x89C1;&#x95EE;&#x9898;"><b></b>&#x5E38;&#x89C1;&#x95EE;&#x9898;</a></li></ul></ul></ul></div><a href="#&#x4F7F;&#x7528;aapanel&#x624B;&#x52A8;&#x90E8;&#x7F72;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x4F7F;&#x7528;aapanel&#x624B;&#x52A8;&#x90E8;&#x7F72;"><a name="&#x4F7F;&#x7528;aapanel&#x624B;&#x52A8;&#x90E8;&#x7F72;" class="anchor-navigation-ex-anchor" href="#&#x4F7F;&#x7528;aapanel&#x624B;&#x52A8;&#x90E8;&#x7F72;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4F7F;&#x7528;aaPanel&#x624B;&#x52A8;&#x90E8;&#x7F72;</h1>
+<p>aaPanel&#x662F;&#x5B9D;&#x5854;(bt.cn)&#x7684;&#x56FD;&#x9645;&#x7248;&#x672C;</p>
+<h2 id="1&#x914D;&#x7F6E;aapanel"><a name="1&#x914D;&#x7F6E;aapanel" class="anchor-navigation-ex-anchor" href="#1&#x914D;&#x7F6E;aapanel"><i class="fa fa-link" aria-hidden="true"></i></a>1.&#x914D;&#x7F6E;aaPanel</h2>
+<p>&#x4F60;&#x9700;&#x8981;&#x5728; <a href="https://forum.aapanel.com/d/9-aapanel-linux-panel-6-5-4-installation-tutorial" target="_blank">aaPanel</a> &#x9009;&#x62E9;&#x4F60;&#x7684;&#x7CFB;&#x7EDF;&#x83B7;&#x5F97;&#x5B89;&#x88C5;&#x65B9;&#x5F0F;&#x3002;&#x8FD9;&#x91CC;&#x4EE5; CentOS 7+ &#x4F5C;&#x4E3A;&#x7CFB;&#x7EDF;&#x73AF;&#x5883;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</p>
+<p><div class="alert alert-danger hints-alert"><div class="hints-icon"><i class="fa fa-exclamation-circle"></i></div><div class="hints-container"><p> &#x8BF7;&#x52A1;&#x5FC5;&#x4F7F;&#x7528; <strong>CentOS 7+</strong> &#x5B89;&#x88C5;aaPanel&#xFF0C;&#x5176;&#x4ED6;&#x7CFB;&#x7EDF;&#x53EF;&#x80FD;&#x4F1A;&#x6709;&#x672A;&#x77E5;&#x95EE;&#x9898;&#x3002; </p>
+</div></div></p>
+<pre class="language-"><code class="lang-bash">// &#x6700;&#x65B0;&#x811A;&#x672C;&#x53EF;&#x4EE5;&#x5728;aaPanel&#x5B98;&#x7F51;&#x83B7;&#x53D6;
+yum <span class="token function">install</span> -y <span class="token function">wget</span> <span class="token operator">&amp;&amp;</span> <span class="token function">wget</span> -O install.sh http://www.aapanel.com/script/install_6.0_en.sh <span class="token operator">&amp;&amp;</span> <span class="token function">bash</span> install.sh
+</code></pre>
+<p>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#x6211;&#x4EEC;&#x767B;&#x9646; aaPanel &#x8FDB;&#x884C;&#x73AF;&#x5883;&#x7684;&#x5B89;&#x88C5;&#x3002;</p>
+<p>&#x9009;&#x62E9;&#x4F7F;&#x7528;LNMP&#x7684;&#x73AF;&#x5883;&#x5B89;&#x88C5;&#x65B9;&#x5F0F;&#x52FE;&#x9009;&#x5982;&#x4E0B;&#x4FE1;&#x606F;</p>
+<p>&#x2611;&#xFE0F; Nginx 1.17<br>&#x2611;&#xFE0F; MySQL 5.6<br>&#x2611;&#xFE0F; PHP 7.4  </p>
+<p>&#x9009;&#x62E9; Fast &#x5FEB;&#x901F;&#x7F16;&#x8BD1;&#x540E;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</p>
+<h2 id="2&#x5B89;&#x88C5;redis&#x3001;fileinfo"><a name="2&#x5B89;&#x88C5;redis&#x3001;fileinfo" class="anchor-navigation-ex-anchor" href="#2&#x5B89;&#x88C5;redis&#x3001;fileinfo"><i class="fa fa-link" aria-hidden="true"></i></a>2.&#x5B89;&#x88C5;Redis&#x3001;fileinfo</h2>
+<p>aaPanel &#x9762;&#x677F; &gt; App Store &gt; &#x627E;&#x5230;PHP 7.4&#x70B9;&#x51FB;Setting &gt; Install extentions &gt; redis,fileinfo &#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</p>
+<h2 id="3&#x89E3;&#x9664;&#x88AB;&#x7981;&#x6B62;&#x7684;&#x51FD;&#x6570;"><a name="3&#x89E3;&#x9664;&#x88AB;&#x7981;&#x6B62;&#x7684;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#3&#x89E3;&#x9664;&#x88AB;&#x7981;&#x6B62;&#x7684;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>3.&#x89E3;&#x9664;&#x88AB;&#x7981;&#x6B62;&#x7684;&#x51FD;&#x6570;</h2>
+<p>aaPanel &#x9762;&#x677F; &gt; App Store &gt; &#x627E;&#x5230;PHP 7.4&#x70B9;&#x51FB;Setting &gt; Disabled functions &#x5C06; <code>putenv</code> <code>proc_open</code> <code>pcntl_alarm</code> <code>pcntl_signal</code> &#x4ECE;&#x5217;&#x8868;&#x4E2D;&#x5220;&#x9664;&#x3002;</p>
+<h2 id="4&#x6DFB;&#x52A0;&#x7AD9;&#x70B9;"><a name="4&#x6DFB;&#x52A0;&#x7AD9;&#x70B9;" class="anchor-navigation-ex-anchor" href="#4&#x6DFB;&#x52A0;&#x7AD9;&#x70B9;"><i class="fa fa-link" aria-hidden="true"></i></a>4.&#x6DFB;&#x52A0;&#x7AD9;&#x70B9;</h2>
+<p>aaPanel &#x9762;&#x677F; &gt; Website &gt; Add site&#x3002;</p>
+<blockquote>
+<p>&#x5728; Domain &#x586B;&#x5165;&#x4F60;&#x6307;&#x5411;&#x670D;&#x52A1;&#x5668;&#x7684;&#x57DF;&#x540D;<br>&#x5728; Database &#x9009;&#x62E9;MySQL<br>&#x5728; PHP Verison &#x9009;&#x62E9;PHP-74  </p>
+</blockquote>
+<h2 id="5&#x5B89;&#x88C5;v2board"><a name="5&#x5B89;&#x88C5;v2board" class="anchor-navigation-ex-anchor" href="#5&#x5B89;&#x88C5;v2board"><i class="fa fa-link" aria-hidden="true"></i></a>5.&#x5B89;&#x88C5;V2Board</h2>
+<p>&#x901A;&#x8FC7;SSH&#x767B;&#x5F55;&#x5230;&#x670D;&#x52A1;&#x5668;&#x540E;&#x8BBF;&#x95EE;&#x7AD9;&#x70B9;&#x8DEF;&#x5F84;&#x5982;&#xFF1A;/www/wwwroot/&#x4F60;&#x7684;&#x7AD9;&#x70B9;&#x57DF;&#x540D;&#x3002;</p>
+<p>&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x90FD;&#x9700;&#x8981;&#x5728;&#x7AD9;&#x70B9;&#x76EE;&#x5F55;&#x8FDB;&#x884C;&#x6267;&#x884C;&#x3002;</p>
+<pre class="language-"><code class="lang-bash"><span class="token comment"># &#x5220;&#x9664;&#x76EE;&#x5F55;&#x4E0B;&#x6587;&#x4EF6;</span>
+chattr -i .user.ini
+<span class="token function">rm</span> -rf .htaccess <span class="token number">404</span>.html index.html .user.ini
+</code></pre>
+<p>&#x6267;&#x884C;&#x547D;&#x4EE4;&#x4ECE; Github &#x514B;&#x9686;&#x5230;&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x3002;</p>
+<pre class="language-"><code class="lang-bash"><span class="token function">git</span> clone https://github.com/v2board/v2board.git ./
+</code></pre>
+<p>&#x6267;&#x884C;&#x547D;&#x4EE4;&#x5B89;&#x88C5;&#x4F9D;&#x8D56;&#x5305;&#x4EE5;&#x53CA;V2board</p>
+<pre class="language-"><code class="lang-bash"><span class="token function">sh</span> init.sh
+</code></pre>
+<p>&#x6839;&#x636E;&#x63D0;&#x793A;&#x5B8C;&#x6210;&#x5B89;&#x88C5;</p>
+<h2 id="6&#x914D;&#x7F6E;&#x7AD9;&#x70B9;&#x76EE;&#x5F55;&#x53CA;&#x4F2A;&#x9759;&#x6001;"><a name="6&#x914D;&#x7F6E;&#x7AD9;&#x70B9;&#x76EE;&#x5F55;&#x53CA;&#x4F2A;&#x9759;&#x6001;" class="anchor-navigation-ex-anchor" href="#6&#x914D;&#x7F6E;&#x7AD9;&#x70B9;&#x76EE;&#x5F55;&#x53CA;&#x4F2A;&#x9759;&#x6001;"><i class="fa fa-link" aria-hidden="true"></i></a>6.&#x914D;&#x7F6E;&#x7AD9;&#x70B9;&#x76EE;&#x5F55;&#x53CA;&#x4F2A;&#x9759;&#x6001;</h2>
+<p>&#x6DFB;&#x52A0;&#x5B8C;&#x6210;&#x540E;&#x7F16;&#x8F91;&#x6DFB;&#x52A0;&#x7684;&#x7AD9;&#x70B9; &gt; Site directory &gt; Running directory &#x9009;&#x62E9; /public &#x4FDD;&#x5B58;&#x3002;</p>
+<p>&#x6DFB;&#x52A0;&#x5B8C;&#x6210;&#x540E;&#x7F16;&#x8F91;&#x6DFB;&#x52A0;&#x7684;&#x7AD9;&#x70B9; &gt; URL rewrite &#x586B;&#x5165;&#x4F2A;&#x9759;&#x6001;&#x4FE1;&#x606F;&#x3002;</p>
+<pre class="language-"><code>location /downloads {
+}
+
+location / {  
+    try_files $uri $uri/ /index.php$is_args$query_string;  
+}
+
+location ~ .*\.(js|css)?$
+{
+    expires      1h;
+    error_log off;
+    access_log /dev/null; 
+}
+</code></pre><h2 id="7&#x914D;&#x7F6E;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;"><a name="7&#x914D;&#x7F6E;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;" class="anchor-navigation-ex-anchor" href="#7&#x914D;&#x7F6E;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;"><i class="fa fa-link" aria-hidden="true"></i></a>7.&#x914D;&#x7F6E;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;</h2>
+<p>aaPanel &#x9762;&#x677F; &gt; Cron&#x3002;</p>
+<blockquote>
+<p>&#x5728; Type of Task &#x9009;&#x62E9; Shell Script<br>&#x5728; Name of Task &#x586B;&#x5199; v2board<br>&#x5728; Period &#x9009;&#x62E9; N Minutes 1 Minute<br>&#x5728; Script content &#x586B;&#x5199; php /www/wwwroot/&#x8DEF;&#x5F84;/artisan schedule:run  </p>
+</blockquote>
+<p>&#x6839;&#x636E;&#x4E0A;&#x8FF0;&#x4FE1;&#x606F;&#x6DFB;&#x52A0;&#x6BCF;1&#x5206;&#x949F;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x7684;&#x5B9A;&#x65F6;&#x4EFB;&#x52A1;&#x3002;</p>
+<h2 id="8&#x542F;&#x52A8;&#x961F;&#x5217;&#x670D;&#x52A1;"><a name="8&#x542F;&#x52A8;&#x961F;&#x5217;&#x670D;&#x52A1;" class="anchor-navigation-ex-anchor" href="#8&#x542F;&#x52A8;&#x961F;&#x5217;&#x670D;&#x52A1;"><i class="fa fa-link" aria-hidden="true"></i></a>8.&#x542F;&#x52A8;&#x961F;&#x5217;&#x670D;&#x52A1;</h2>
+<p>V2board&#x7684;&#x7CFB;&#x7EDF;&#x5F3A;&#x4F9D;&#x8D56;&#x961F;&#x5217;&#x670D;&#x52A1;&#xFF0C;&#x6B63;&#x5E38;&#x4F7F;&#x7528;V2Board&#x5FC5;&#x987B;&#x542F;&#x52A8;&#x961F;&#x5217;&#x670D;&#x52A1;&#x3002;&#x4E0B;&#x9762;&#x4EE5;aaPanel&#x4E2D;supervisor&#x670D;&#x52A1;&#x6765;&#x5B88;&#x62A4;&#x961F;&#x5217;&#x670D;&#x52A1;&#x4F5C;&#x4E3A;&#x6F14;&#x793A;&#x3002;</p>
+<p>aaPanel &#x9762;&#x677F; &gt; App Store &gt; Tools</p>
+<p>&#x627E;&#x5230;Supervisor&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#xFF0C;&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#x70B9;&#x51FB;<code>&#x8BBE;&#x7F6E; &gt; Add Daemon</code>&#x6309;&#x7167;&#x5982;&#x4E0B;&#x586B;&#x5199;</p>
+<blockquote>
+<p>&#x5728; Name &#x586B;&#x5199; V2board<br>&#x5728; Run User &#x9009;&#x62E9; www<br>&#x5728; Run Dir &#x9009;&#x62E9; &#x7AD9;&#x70B9;&#x76EE;&#x5F55;
+&#x5728; Start Command &#x586B;&#x5199; php artisan horizon
+&#x5728; Processes &#x586B;&#x5199; 1  </p>
+</blockquote>
+<p>&#x586B;&#x5199;&#x540E;&#x70B9;&#x51FB;Confirm&#x6DFB;&#x52A0;&#x5373;&#x53EF;&#x8FD0;&#x884C;&#x3002; </p>
+<h3 id="&#x5E38;&#x89C1;&#x95EE;&#x9898;"><a name="&#x5E38;&#x89C1;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x5E38;&#x89C1;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5E38;&#x89C1;&#x95EE;&#x9898;</h3>
+<p>Q&#xFF1A;500&#x9519;&#x8BEF;<br>A&#xFF1A;&#x68C0;&#x67E5;&#x7AD9;&#x70B9;&#x6839;&#x76EE;&#x5F55;&#x6743;&#x9650;&#xFF0C;&#x9012;&#x5F52;755&#xFF0C;&#x4FDD;&#x8BC1;&#x76EE;&#x5F55;&#x6709;&#x53EF;&#x5199;&#x6587;&#x4EF6;&#x7684;&#x6743;&#x9650;&#xFF0C;&#x4E5F;&#x6709;&#x53EF;&#x80FD;&#x662F;Redis&#x6269;&#x5C55;&#x6CA1;&#x6709;&#x5B89;&#x88C5;&#x6216;&#x8005;Redis&#x6CA1;&#x6709;&#x6309;&#x7167;&#x9020;&#x6210;&#x7684;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x67E5;&#x770B;storage/logs&#x4E0B;&#x7684;&#x65E5;&#x5FD7;&#x6765;&#x6392;&#x67E5;&#x9519;&#x8BEF;&#x6216;&#x8005;&#x5F00;&#x542F;debug&#x6A21;&#x5F0F;&#x3001;&#x7AD9;&#x70B9;&#x8BBE;&#x7F6E;&#x4E2D;&#x5173;&#x95ED;&#x9632;&#x8DE8;&#x7AD9;&#x3002;  </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"使用aaPanel手动部署","level":"1.5.1","depth":2,"next":{"title":"使用","level":"1.6","depth":1,"ref":"","articles":[{"title":"用户","level":"1.6.1","depth":2,"path":"use/user.md","ref":"use/user.md","articles":[]},{"title":"订阅","level":"1.6.2","depth":2,"path":"use/subscribe.md","ref":"use/subscribe.md","articles":[]},{"title":"节点","level":"1.6.3","depth":2,"path":"use/node.md","ref":"use/node.md","articles":[]},{"title":"支付","level":"1.6.4","depth":2,"path":"use/payment.md","ref":"use/payment.md","articles":[]},{"title":"邮件","level":"1.6.5","depth":2,"path":"use/email.md","ref":"use/email.md","articles":[]},{"title":"邀请返佣","level":"1.6.6","depth":2,"path":"use/commission.md","ref":"use/commission.md","articles":[]},{"title":"知识库","level":"1.6.7","depth":2,"path":"use/knowledge.md","ref":"use/knowledge.md","articles":[]},{"title":"Telegram","level":"1.6.8","depth":2,"path":"use/telegram.md","ref":"use/telegram.md","articles":[]},{"title":"进阶","level":"1.6.9","depth":2,"path":"use/advanced.md","ref":"use/advanced.md","articles":[]},{"title":"服务端","level":"1.6.10","depth":2,"path":"use/server.md","ref":"use/server.md","articles":[]},{"title":"主题","level":"1.6.11","depth":2,"path":"use/theme.md","ref":"use/theme.md","articles":[]},{"title":"更新","level":"1.6.12","depth":2,"path":"use/update.md","ref":"use/update.md","articles":[]}]},"previous":{"title":"部署","level":"1.5","depth":1,"ref":"","articles":[{"title":"使用aaPanel手动部署","level":"1.5.1","depth":2,"path":"deploy/aapanel.md","ref":"deploy/aapanel.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["ga","prism","prism-themes","hints","anchor-navigation-ex"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prism-themes/themes/prism-atom-dark.css"],"lang":{"objc":"objectivec","shell":"bash","text":"textile","plain":"textile"}},"search":{},"hints":{"info":"fa fa-info-circle","tip":"fa fa-mortar-board","danger":"fa fa-exclamation-circle","working":"fa fa-wrench"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"showLevel":false,"associatedWithSummary":false,"mode":"float","showGoTop":true,"printLog":false,"multipleH1":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"prism-themes":{},"ga":{"configuration":"auto","token":"UA-154807087-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"V2Board 使用手册","language":"zh","gitbook":"*"},"file":{"path":"deploy/aapanel.md","mtime":"2022-03-20T14:06:34.253Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-17T06:25:04.551Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
