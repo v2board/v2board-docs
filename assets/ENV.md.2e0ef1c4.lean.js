@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a as l}from"./app.0d8b5be3.js";const x=JSON.parse('{"title":"环境要求","description":"","frontmatter":{},"headers":[],"relativePath":"ENV.md"}'),d={name:"ENV.md"},r=l("",5),n=[r];function s(i,_,o,c,p,f){return a(),e("div",null,n)}const g=t(d,[["render",s]]);export{x as __pageData,g as default};
