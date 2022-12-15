@@ -1,0 +1,1 @@
+import{_ as t,c as r,o,a as e}from"./app.96d1a286.js";const T=JSON.parse('{"title":"术语","description":"","frontmatter":{},"headers":[],"relativePath":"TERM.md"}'),a={name:"TERM.md"},s=e("",6),n=[s];function _(c,d,p,i,h,g){return o(),r("div",null,n)}const f=t(a,[["render",_]]);export{T as __pageData,f as default};
